@@ -22,14 +22,14 @@ For previous versions of Laravel, you need to update `config/app.php` by adding 
 ```php
 'providers' => [
     // ...
-    seongbae\KeywordRank\KeywordRankServiceProvider::class,
+    Northlab\KeywordRank\KeywordRankServiceProvider::class,
 ];
 ```
 
 Next, publish all package resources:
 
 ```bash
-    php artisan vendor:publish --provider="seongbae\KeywordRank\KeywordRankServiceProvider"
+    php artisan vendor:publish --provider="Northlab\KeywordRank\KeywordRankServiceProvider"
 ```
 
 This will add to your project:
