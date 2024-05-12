@@ -1,14 +1,14 @@
 <?php 
-namespace seongbae\KeywordRank\Services;
+namespace Northlab\KeywordRank\Services;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Log;
 use Storage;
-use seongbae\KeywordRank\Models\Website;
-use seongbae\KeywordRank\Models\Keyword;
-use seongbae\KeywordRank\Models\Ranking;
+use Northlab\KeywordRank\Models\Website;
+use Northlab\KeywordRank\Models\Keyword;
+use Northlab\KeywordRank\Models\Ranking;
 
 class KeywordRankFetcher
 {

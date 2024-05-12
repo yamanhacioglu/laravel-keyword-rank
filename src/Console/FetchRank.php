@@ -1,9 +1,9 @@
 <?php
 
-namespace seongbae\KeywordRank\Console;
+namespace Northlab\KeywordRank\Console;
 
 use Illuminate\Console\Command;
-use seongbae\KeywordRank\Services\KeywordRankFetcher;
+use Northlab\KeywordRank\Services\KeywordRankFetcher;
 use Illuminate\Support\Facades\Config;
 
 class FetchRank extends Command 

@@ -1,7 +1,7 @@
 <?php
 
-use seongbae\KeywordRank\KeywordRankServiceProvider;
-use seongbae\KeywordRank\Services\KeywordRankFetcher;
+use Northlab\KeywordRank\KeywordRankServiceProvider;
+use Northlab\KeywordRank\Services\KeywordRankFetcher;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Artisan;
 use Carbon\Carbon;

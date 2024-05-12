@@ -1,9 +1,10 @@
-<?php 
-namespace seongbae\KeywordRank;
+<?php
+
+namespace Northlab\KeywordRank;
 
 use Illuminate\Support\ServiceProvider;
-use seongbae\KeywordRank\Services\KeywordRankFetcher;
-use seongbae\KeywordRank\Console\FetchRank;
+use Northlab\KeywordRank\Services\KeywordRankFetcher;
+use Northlab\KeywordRank\Console\FetchRank;
 
 class KeywordRankServiceProvider extends ServiceProvider 
 {

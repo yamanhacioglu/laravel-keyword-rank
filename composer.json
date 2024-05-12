@@ -1,26 +1,26 @@
 {
-    "name": "seongbae/keywordrank",
-    "description": "A Laravel package for getting keyword positions from Google",
+    "name": "northlab/keywordrank",
+    "description": "A Laravel package for getting keyword positions from Google. This package forked and upgraded from seongbae/laravel-keyword-rank",
     "keywords": ["laravel", "google", "keywords", "search", "console", "rank"],
     "authors": [
         {
-            "name": "Seong Bae",
-            "email": "seong@lnidigital.com"
+            "name": "Yaman HACIOGLU",
+            "email": "yaman@northlab.com.tr"
         }
     ],
     "license": "MIT",
     "require": {
-        "php": ">=5.6.4",
-        "illuminate/support": "~5.1"
+        "php": ">=8.3",
+        "illuminate/support": "~v11.7.0"
     },
     
     "require-dev": {
-        "phpunit/phpunit": "~3.0",
-        "orchestra/testbench": "~3.0"
+        "phpunit/phpunit": "~11.1.3",
+        "orchestra/testbench": "~v9.0.4"
     },
     "autoload": {
         "psr-4": {
-            "seongbae\\KeywordRank\\": "src/"
+            "Northlab\\KeywordRank\\": "src/"
         },
         "files": [
             "src/Libs/simple_html_dom.php",
@@ -29,10 +29,10 @@
     },
     "extra": {
         "component": "package",
-        "frameworks": ["Laravel 5.5"],
+        "frameworks": ["Laravel 10"],
         "laravel": {
             "providers": [
-                "seongbae\\KeywordRank\\KeywordRankServiceProvider"
+                "Northlab\\KeywordRank\\KeywordRankServiceProvider"
             ]            
         }
     },

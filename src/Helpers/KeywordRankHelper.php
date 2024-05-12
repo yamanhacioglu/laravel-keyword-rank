@@ -1,6 +1,5 @@
 <?php 
 
-/* License: open source for private and commercial use This code is free to use and modify as long as this comment stays untouched on top. URL of original source: http://google-rank-checker.squabbel.com Author of original source: justone@squabbel.com This tool should be completely legal but in any case you may not sue or seek compensation from the original Author for any damages or legal issues the use may cause. By using this source code you agree NOT to increase the request rates beyond the IP management function limitations, this would only harm our common cause. */ 
 
 if (!function_exists('verbose')) {
 	function verbose($text) { 
